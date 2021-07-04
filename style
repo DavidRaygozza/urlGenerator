@@ -1,0 +1,17 @@
+#submit {
+border: 2px inset #001a00;
+margin-left: 10px;
+border-radius: 15px;
+background-color: white;
+}
+
+#submit:hover{
+background-color:#003300;
+color:white;
+}
+
+#old{border-radius: 15px;
+margin-left: 10px;
+border: 2px inset #001a00; 
+width: 35%
+}
