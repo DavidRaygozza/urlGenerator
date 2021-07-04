@@ -7,20 +7,15 @@ function run(){
 		var newerString1 = "http://laverne.idm.oclc.org/login?url=";
 
     		var newest = "";
-    		var counter = 0;
     		var decider = false;
-		var value;
 		var length1 = chars.length;
 		var older = "";
 		var warning = "'leopac.ulv.edu'";
-		var temp = 0;
-		var charCounter = 0;
 		var decision = "false";
 		var zeroCounter = 0;
 
 		var b = 0;
 		while(b < length1 && decision != "true"){
-        		counter += 1;
         		if(chars[b] == '0' && chars[b+1] == '-'){
 				zeroCounter++;
 				if(zeroCounter == 1){
