@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"/>
+<head>
+<title>ULV URL Generator</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" />
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
+	
+</script>
+
+</head>
+
+<body>
+   <p>The Library has recently migrated to a new library system which will provide more functionality of accessing research and instructional resources. As a result, the links you bookmarked that contained proxy information might become out of date. Please use this New URL generator by paste in the old URL and the system will generate a new URL for you. Thanks for your patience. If you have any questions, please contact us at ajiang@laverne.edu. Thanks!</p>
+   <form method="post">
+      <p><label for="old">Enter Old URL:</label></p>
+      <input id="old" name="old" type="text" /> 
+      <input id="submit" onclick="run()" type="submit" value="Get New URL" />
+      &nbsp;
+   </form>
+</body>
+</html>
+
+<style type="text/css">
+
+#submit {
+border: 2px inset #001a00;
+margin-left: 10px;
+border-radius: 15px;
+background-color: white;
+}
+
+#submit:hover{
+background-color:#003300;
+color:white;
+}
+
+#old{border-radius: 15px;
+margin-left: 10px;
+border: 2px inset #001a00; 
+width: 35%
+}
+</style>
